@@ -1,0 +1,39 @@
+GDRE Tools v2.1.0
+Windows 10.0.26200, AMD Radeon(TM) 840M Graphics, vulkan
+Opening file: C:/Users/andyh/Documents/Game Dev Stuff/Finished Projects/Power Surge Game/Power Surge!.pck
+Multiple passing candidates for bytecode version 13:
+3.5.0-stable (a7aad78), 3.2.0-stable (5565f55), 3.1.1-stable (514a3fb), 3.1.0-stable (1a36141)
+Choosing only one that matches engine version: 3.5.0-stable (a7aad78).
+Loaded 25 imported files
+Detected Engine Version: 3.5.1
+Detected Bytecode Revision: 3.5.0-stable (a7aad78)
+Verified 67 files, no errors detected!
+Extracted 67 files, no errors detected!
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     6
+Failed scripts:                         0
+Imported resources for export session:  25
+Successfully converted:                 25
+Lossy:                                  4
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.5.1 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

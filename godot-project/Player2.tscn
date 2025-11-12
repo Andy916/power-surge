@@ -1,0 +1,50 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Sprites/PlayerIdle.png" type="Texture2D" id=1]
+[ext_resource path="res://Player2.gd" type="Script" id=2]
+[ext_resource path="res://BatterySound.wav" type="AudioStream" id=3]
+[ext_resource path="res://JumpSound.mp3" type="AudioStream" id=4]
+[ext_resource path="res://Sprites/PlayerWalk.png" type="Texture2D" id=5]
+[ext_resource path="res://Sprites/PlayerJump.png" type="Texture2D" id=6]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "Walking",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 181, 188 )
+
+[node name="Player2" type="CharacterBody2D"]
+scale = Vector2( 0.25, 0.25 )
+script = ExtResource( 2 )
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2( 2, -2 )
+scale = Vector2( 0.503906, 0.503906 )
+frames = SubResource( 2 )
+animation = "Walking"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 4, -4 )
+scale = Vector2( 0.5, 1 )
+shape = SubResource( 1 )
+
+[node name="BatterySound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="JumpSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )

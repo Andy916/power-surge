@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Sprites/red-pixel-retro-win-button-video-games-navigation-web-design-yellow-background-square-vector-icon-141866476.jpg" type="Texture2D" id=1]
+[ext_resource path="res://WinScene.gd" type="Script" id=2]
+[ext_resource path="res://WinSound.wav" type="AudioStream" id=3]
+
+[node name="WinScene" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="WinScreenSprite" type="Sprite2D" parent="."]
+position = Vector2( 512.5, 298.5 )
+scale = Vector2( 1.28125, 1.12007 )
+texture = ExtResource( 1 )
+
+[node name="WinSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )

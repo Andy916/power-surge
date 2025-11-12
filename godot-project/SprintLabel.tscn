@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2( 2.5, 2.5 )
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 14.0
+text = "Press Shift to Sprint"

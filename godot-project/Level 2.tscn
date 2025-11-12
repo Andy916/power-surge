@@ -1,0 +1,204 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Sprites/istockphoto-1333010525-612x612.jpg" type="Texture2D" id=1]
+[ext_resource path="res://Player2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Level1Tile.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Level2BackGroundMusic.mp3" type="AudioStream" id=4]
+[ext_resource path="res://DarkBrownTile.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Level2Leaves.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Battery.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Enemy.tscn" type="PackedScene" id=8]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 512.5, 61 )
+
+[node name="Level 2" type="Node2D"]
+
+[node name="Player2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 28, 429 )
+z_index = 1
+
+[node name="Level 2 BackGround" type="Sprite2D" parent="."]
+position = Vector2( 514, 302 )
+scale = Vector2( 1.68464, 1.63215 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2( 461, 536 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 50.5, 2 )
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="BoundaryTile" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 460 )
+
+[node name="BoundaryTile2" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 413 )
+
+[node name="BoundaryTile3" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 367 )
+
+[node name="BoundaryTile4" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 320 )
+
+[node name="BoundaryTile5" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 275 )
+
+[node name="BoundaryTile6" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 228 )
+
+[node name="BoundaryTile7" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 182 )
+
+[node name="BoundaryTile8" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 135 )
+
+[node name="BoundaryTile9" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 90 )
+
+[node name="BoundaryTile10" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, 44 )
+
+[node name="BoundaryTile11" parent="." instance=ExtResource( 3 )]
+position = Vector2( -29, -3 )
+
+[node name="BoundaryTile12" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 463 )
+
+[node name="BoundaryTile13" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 416 )
+
+[node name="BoundaryTile14" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 370 )
+
+[node name="BoundaryTile15" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 323 )
+
+[node name="BoundaryTile16" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 278 )
+
+[node name="BoundaryTile18" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 185 )
+
+[node name="BoundaryTile17" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 231 )
+
+[node name="BoundaryTile19" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 138 )
+
+[node name="BoundaryTile20" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 93 )
+
+[node name="BoundaryTile21" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, 47 )
+
+[node name="BoundaryTile22" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1048, -1.42109e-14 )
+
+[node name="Level2Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 4 )
+volume_db = -4.16
+autoplay = true
+
+[node name="Trunk1" parent="." instance=ExtResource( 5 )]
+position = Vector2( 276, 454 )
+
+[node name="Trunk2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 276, 413 )
+
+[node name="Trunk3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 276, 367 )
+
+[node name="Trunk4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 456, 454 )
+
+[node name="Trunk5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 456, 413 )
+
+[node name="Leaves" parent="." instance=ExtResource( 6 )]
+position = Vector2( 276, 323 )
+
+[node name="Leaves24" parent="." instance=ExtResource( 6 )]
+position = Vector2( 224, 323 )
+
+[node name="Leaves25" parent="." instance=ExtResource( 6 )]
+position = Vector2( 328, 323 )
+
+[node name="Leaves26" parent="." instance=ExtResource( 6 )]
+position = Vector2( 276, 278 )
+
+[node name="Trunk6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 632, 454 )
+
+[node name="Trunk7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 632, 413 )
+
+[node name="Trunk8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 632, 367 )
+
+[node name="Leaves3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 632, 323 )
+
+[node name="Leaves29" parent="." instance=ExtResource( 6 )]
+position = Vector2( 580, 323 )
+
+[node name="Leaves31" parent="." instance=ExtResource( 6 )]
+position = Vector2( 684, 323 )
+
+[node name="Leaves32" parent="." instance=ExtResource( 6 )]
+position = Vector2( 632, 278 )
+
+[node name="Leaves27" parent="." instance=ExtResource( 6 )]
+position = Vector2( 459, 368 )
+
+[node name="Leaves28" parent="." instance=ExtResource( 6 )]
+position = Vector2( 407, 368 )
+
+[node name="Leaves2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 511, 368 )
+
+[node name="Leaves30" parent="." instance=ExtResource( 6 )]
+position = Vector2( 459, 323 )
+
+[node name="Battery" parent="." instance=ExtResource( 7 )]
+position = Vector2( 63, 116 )
+
+[node name="Enemy" parent="." instance=ExtResource( 8 )]
+position = Vector2( 63, 208 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 786, 391 )
+
+[node name="Enemy3" parent="." instance=ExtResource( 8 )]
+position = Vector2( 786, 460 )
+
+[node name="Enemy6" parent="." instance=ExtResource( 8 )]
+position = Vector2( 485, 116 )
+
+[node name="Enemy4" parent="." instance=ExtResource( 8 )]
+position = Vector2( 901, 391 )
+
+[node name="Enemy9" parent="." instance=ExtResource( 8 )]
+position = Vector2( 786, 356 )
+
+[node name="Enemy10" parent="." instance=ExtResource( 8 )]
+position = Vector2( 901, 356 )
+
+[node name="Enemy7" parent="." instance=ExtResource( 8 )]
+position = Vector2( 786, 426 )
+
+[node name="Enemy8" parent="." instance=ExtResource( 8 )]
+position = Vector2( 901, 426 )
+
+[node name="Enemy5" parent="." instance=ExtResource( 8 )]
+position = Vector2( 901, 460 )
+
+[node name="Battery2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 840, 426 )

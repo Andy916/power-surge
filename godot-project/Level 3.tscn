@@ -1,0 +1,392 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://underground-cave-with-water-blue-crystals_107791-7339.webp" type="Texture2D" id=1]
+[ext_resource path="res://Player3.tscn" type="PackedScene" id=2]
+[ext_resource path="res://DarkBrownTile.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Level3BackGroundMusic.mp3" type="AudioStream" id=4]
+[ext_resource path="res://EnemyLvl3.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Battery.tscn" type="PackedScene" id=6]
+[ext_resource path="res://SprintLabel.tscn" type="PackedScene" id=7]
+
+[node name="Level 3" type="Node2D"]
+scale = Vector2( 0.3, 0.3 )
+
+[node name="Level3BackGround" type="Sprite2D" parent="."]
+position = Vector2( 1716.66, 1004.17 )
+scale = Vector2( 1.71667, 2.52292 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="BoundaryTile" parent="." instance=ExtResource( 3 )]
+position = Vector2( 280, 536 )
+
+[node name="BoundaryTile2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 231, 536 )
+
+[node name="BoundaryTile17" parent="." instance=ExtResource( 3 )]
+position = Vector2( 84, 536 )
+
+[node name="BoundaryTile18" parent="." instance=ExtResource( 3 )]
+position = Vector2( 35, 536 )
+
+[node name="BoundaryTile19" parent="." instance=ExtResource( 3 )]
+position = Vector2( 184, 536 )
+
+[node name="BoundaryTile20" parent="." instance=ExtResource( 3 )]
+position = Vector2( 135, 536 )
+
+[node name="BoundaryTile3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 885, 976.667 )
+
+[node name="BoundaryTile4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 836, 976.667 )
+
+[node name="BoundaryTile21" parent="." instance=ExtResource( 3 )]
+position = Vector2( 689, 976.667 )
+
+[node name="BoundaryTile22" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 976.667 )
+
+[node name="BoundaryTile23" parent="." instance=ExtResource( 3 )]
+position = Vector2( 789, 976.667 )
+
+[node name="BoundaryTile24" parent="." instance=ExtResource( 3 )]
+position = Vector2( 740, 976.667 )
+
+[node name="BoundaryTile5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 891.666, 1503.33 )
+
+[node name="BoundaryTile6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 842.666, 1503.33 )
+
+[node name="BoundaryTile25" parent="." instance=ExtResource( 3 )]
+position = Vector2( 695.667, 1503.33 )
+
+[node name="BoundaryTile26" parent="." instance=ExtResource( 3 )]
+position = Vector2( 646.667, 1503.33 )
+
+[node name="BoundaryTile27" parent="." instance=ExtResource( 3 )]
+position = Vector2( 795.668, 1503.33 )
+
+[node name="BoundaryTile28" parent="." instance=ExtResource( 3 )]
+position = Vector2( 746.667, 1503.33 )
+
+[node name="BoundaryTile32" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1431.66, 1906.67 )
+
+[node name="BoundaryTile33" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1382.66, 1906.67 )
+
+[node name="BoundaryTile34" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1235.67, 1906.67 )
+
+[node name="BoundaryTile35" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1186.67, 1906.67 )
+
+[node name="BoundaryTile36" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1335.66, 1906.67 )
+
+[node name="BoundaryTile37" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1286.67, 1906.67 )
+
+[node name="BoundaryTile38" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2051.66, 1780 )
+
+[node name="BoundaryTile39" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2002.66, 1780 )
+
+[node name="BoundaryTile40" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1855.66, 1780 )
+
+[node name="BoundaryTile41" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1806.66, 1780 )
+
+[node name="BoundaryTile42" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1955.66, 1780 )
+
+[node name="BoundaryTile43" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1906.66, 1780 )
+
+[node name="BoundaryTile44" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2478.32, 1640 )
+
+[node name="BoundaryTile45" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2429.33, 1640 )
+
+[node name="BoundaryTile46" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2282.33, 1640 )
+
+[node name="BoundaryTile47" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2233.33, 1640 )
+
+[node name="BoundaryTile48" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2382.33, 1640 )
+
+[node name="BoundaryTile49" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2333.33, 1640 )
+
+[node name="BoundaryTile50" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3011.66, 1480 )
+
+[node name="BoundaryTile51" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2962.66, 1480 )
+
+[node name="BoundaryTile52" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2815.67, 1480 )
+
+[node name="BoundaryTile53" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2766.67, 1480 )
+
+[node name="BoundaryTile54" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2915.66, 1480 )
+
+[node name="BoundaryTile55" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2866.67, 1480 )
+
+[node name="BoundaryTile56" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2451.65, 1310 )
+
+[node name="BoundaryTile57" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2402.65, 1310 )
+
+[node name="BoundaryTile58" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2255.67, 1310 )
+
+[node name="BoundaryTile59" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2206.67, 1310 )
+
+[node name="BoundaryTile60" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2355.65, 1310 )
+
+[node name="BoundaryTile61" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2306.67, 1310 )
+
+[node name="BoundaryTile62" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3011.65, 1130 )
+
+[node name="BoundaryTile63" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2962.65, 1130 )
+
+[node name="BoundaryTile64" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2815.67, 1130 )
+
+[node name="BoundaryTile65" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2766.67, 1130 )
+
+[node name="BoundaryTile66" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2915.65, 1130 )
+
+[node name="BoundaryTile67" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2866.67, 1130 )
+
+[node name="BoundaryTile68" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2468.33, 953.334 )
+
+[node name="BoundaryTile69" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2419.33, 953.334 )
+
+[node name="BoundaryTile70" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2272.34, 953.334 )
+
+[node name="BoundaryTile71" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2223.34, 953.334 )
+
+[node name="BoundaryTile72" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2372.33, 953.334 )
+
+[node name="BoundaryTile73" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2323.34, 953.334 )
+
+[node name="BoundaryTile74" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3011.65, 816.666 )
+
+[node name="BoundaryTile75" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2962.65, 816.666 )
+
+[node name="BoundaryTile76" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2815.67, 816.666 )
+
+[node name="BoundaryTile77" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2766.67, 816.666 )
+
+[node name="BoundaryTile78" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2915.65, 816.666 )
+
+[node name="BoundaryTile79" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2866.67, 816.666 )
+
+[node name="BoundaryTile80" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2468.33, 636.666 )
+
+[node name="BoundaryTile81" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2419.33, 636.666 )
+
+[node name="BoundaryTile82" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2272.34, 636.666 )
+
+[node name="BoundaryTile83" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2223.34, 636.666 )
+
+[node name="BoundaryTile84" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2372.33, 636.666 )
+
+[node name="BoundaryTile85" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2323.34, 636.666 )
+
+[node name="BoundaryTile86" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2051.65, 493.333 )
+
+[node name="BoundaryTile87" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2002.65, 493.333 )
+
+[node name="BoundaryTile88" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1855.67, 493.333 )
+
+[node name="BoundaryTile89" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1806.67, 493.333 )
+
+[node name="BoundaryTile90" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1955.65, 493.333 )
+
+[node name="BoundaryTile91" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1906.67, 493.333 )
+
+[node name="Player3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 110, 40 )
+
+[node name="Level3Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 4 )
+autoplay = true
+
+[node name="Enemy" parent="." instance=ExtResource( 5 )]
+position = Vector2( 476.667, 906.667 )
+
+[node name="Battery" parent="." instance=ExtResource( 6 )]
+position = Vector2( 2250, 236.667 )
+scale = Vector2( 0.7, 0.7 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 366.667, 726.667 )
+
+[node name="Enemy3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 520, 1120 )
+
+[node name="Enemy4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 456.667, 1310 )
+
+[node name="Enemy5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 86.6667, 2103.33 )
+
+[node name="Enemy6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 280, 2103.33 )
+
+[node name="Enemy7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 476.667, 2103.33 )
+
+[node name="Enemy8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 670, 2103.33 )
+
+[node name="Enemy9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 860, 2103.33 )
+
+[node name="Enemy10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1053.33, 2103.33 )
+
+[node name="Enemy11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1250, 2103.33 )
+
+[node name="Enemy12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1443.33, 2103.33 )
+
+[node name="Enemy13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1640, 2103.33 )
+
+[node name="Enemy14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1833.33, 2103.33 )
+
+[node name="Enemy15" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2030, 2103.33 )
+
+[node name="Enemy16" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2223.33, 2103.33 )
+
+[node name="Enemy17" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2413.33, 2103.33 )
+
+[node name="Enemy18" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2606.67, 2103.33 )
+
+[node name="Enemy19" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2803.33, 2103.33 )
+
+[node name="Enemy20" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2996.67, 2103.33 )
+
+[node name="Enemy21" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3193.33, 2103.33 )
+
+[node name="Enemy22" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3386.67, 2103.33 )
+
+[node name="BoundaryTile7" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 20 )
+
+[node name="BoundaryTile8" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 63.3334 )
+
+[node name="BoundaryTile9" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 110 )
+
+[node name="BoundaryTile10" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 153.333 )
+
+[node name="BoundaryTile11" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 200 )
+
+[node name="BoundaryTile12" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 243.333 )
+
+[node name="BoundaryTile13" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 290 )
+
+[node name="BoundaryTile14" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 333.333 )
+
+[node name="BoundaryTile15" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 380 )
+
+[node name="BoundaryTile16" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 426.667 )
+
+[node name="BoundaryTile29" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 470 )
+
+[node name="BoundaryTile30" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 516.667 )
+
+[node name="BoundaryTile31" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, 560 )
+
+[node name="Enemy23" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1053.33, 1220 )
+
+[node name="Enemy24" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1236.67, 1220 )
+
+[node name="Enemy25" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1410, 1173.33 )
+
+[node name="Enemy26" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1550, 1083.33 )
+
+[node name="Enemy27" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1640, 1846.67 )
+
+[node name="Enemy28" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2646.67, 1616.67 )
+
+[node name="Node2D" parent="." instance=ExtResource( 7 )]
+position = Vector2( 333.333, 10 )
+scale = Vector2( 7, 7 )

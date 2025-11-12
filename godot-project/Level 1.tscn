@@ -1,0 +1,224 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Sprites/BackGround.jpg" type="Texture2D" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Battery.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Enemy.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Level1Tile.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Level1BackGroundMusic.mp3" type="AudioStream" id=6]
+
+[node name="Level 1" type="Node2D"]
+position = Vector2( 0, -7 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 274, 508 )
+
+[node name="Tile" parent="." instance=ExtResource( 5 )]
+position = Vector2( 26, 577 )
+
+[node name="Tile32" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 485 )
+
+[node name="Tile33" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 446 )
+
+[node name="Tile34" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 400 )
+
+[node name="Tile35" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 355 )
+
+[node name="Tile36" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 316 )
+
+[node name="Tile37" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 270 )
+
+[node name="Tile38" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 225 )
+
+[node name="Tile39" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 186 )
+
+[node name="Tile40" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 140 )
+
+[node name="Tile41" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 101 )
+
+[node name="Tile42" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 62 )
+
+[node name="Tile43" parent="." instance=ExtResource( 5 )]
+position = Vector2( -26, 16 )
+
+[node name="Tile44" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 536 )
+
+[node name="Tile45" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 496 )
+
+[node name="Tile46" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 451 )
+
+[node name="Tile47" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 412 )
+
+[node name="Tile48" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 366 )
+
+[node name="Tile49" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 321 )
+
+[node name="Tile50" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 282 )
+
+[node name="Tile51" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 236 )
+
+[node name="Tile52" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 197 )
+
+[node name="Tile53" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 158 )
+
+[node name="Tile54" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 112 )
+
+[node name="Tile55" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 78.0001 )
+
+[node name="Tile56" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, 38.9999 )
+
+[node name="Tile57" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1051, -7 )
+
+[node name="Tile2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 76, 577 )
+
+[node name="Tile3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 127, 577 )
+
+[node name="Tile4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 178, 577 )
+
+[node name="Tile5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 229, 577 )
+
+[node name="Tile6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 280, 577 )
+
+[node name="Tile7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 331, 577 )
+
+[node name="Tile8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 382, 577 )
+
+[node name="Tile22" parent="." instance=ExtResource( 5 )]
+position = Vector2( 636, 531 )
+
+[node name="Tile23" parent="." instance=ExtResource( 5 )]
+position = Vector2( 712, 423 )
+
+[node name="Tile24" parent="." instance=ExtResource( 5 )]
+position = Vector2( 26.0001, 531 )
+
+[node name="Tile25" parent="." instance=ExtResource( 5 )]
+position = Vector2( 509, 342 )
+
+[node name="Tile26" parent="." instance=ExtResource( 5 )]
+position = Vector2( 764, 423 )
+
+[node name="Tile28" parent="." instance=ExtResource( 5 )]
+position = Vector2( 560, 342 )
+
+[node name="Tile29" parent="." instance=ExtResource( 5 )]
+position = Vector2( 153, 446 )
+
+[node name="Tile30" parent="." instance=ExtResource( 5 )]
+position = Vector2( 865, 423 )
+
+[node name="Tile31" parent="." instance=ExtResource( 5 )]
+position = Vector2( 815, 423 )
+
+[node name="Tile27" parent="." instance=ExtResource( 5 )]
+position = Vector2( 433, 531 )
+
+[node name="Tile9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 433, 577 )
+
+[node name="Tile10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 483, 577 )
+
+[node name="Tile11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 534, 577 )
+
+[node name="Tile12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 585, 577 )
+
+[node name="Tile13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 636, 577 )
+
+[node name="Tile14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 687, 577 )
+
+[node name="Tile15" parent="." instance=ExtResource( 5 )]
+position = Vector2( 738, 577 )
+
+[node name="Tile16" parent="." instance=ExtResource( 5 )]
+position = Vector2( 789, 577 )
+
+[node name="Tile17" parent="." instance=ExtResource( 5 )]
+position = Vector2( 839, 577 )
+
+[node name="Tile18" parent="." instance=ExtResource( 5 )]
+position = Vector2( 890, 577 )
+
+[node name="Tile19" parent="." instance=ExtResource( 5 )]
+position = Vector2( 941, 577 )
+
+[node name="Tile20" parent="." instance=ExtResource( 5 )]
+position = Vector2( 991, 577 )
+
+[node name="Tile21" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1042, 577 )
+
+[node name="Level1Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -6.209
+autoplay = true
+
+[node name="Battery" parent="." instance=ExtResource( 3 )]
+position = Vector2( 560, 270 )
+
+[node name="Battery2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 790, 355 )
+
+[node name="Battery3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 153, 378 )
+
+[node name="Battery4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 965, 513 )
+
+[node name="BackGround" type="Sprite2D" parent="."]
+position = Vector2( 526, 280 )
+scale = Vector2( 1.72549, 1.7 )
+z_index = -2
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true,
+"_editor_description_": ""
+}
+
+[node name="Enemy" parent="." instance=ExtResource( 4 )]
+position = Vector2( 711, 225 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 89, 299 )
+
+[node name="Enemy3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 488, 529 )
+
+[node name="Enemy4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 919, 421 )

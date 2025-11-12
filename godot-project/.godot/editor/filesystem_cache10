@@ -1,0 +1,46 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1762910261
+Battery.gd::GDScript::8999789107063401546::1762910161::0::1::::<>Area2D<><>0<>0<><>::
+Battery.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/Battery.png<>res://Battery.gd
+BatterySound.wav::AudioStreamWAV::1369319207215395626::1762909966::1762910183::1::::<><><>0<>0<>bf825b2b35b9c71fb194e5471d4f024d<>res://.godot/imported/BatterySound.wav-7e3fefc3d8eb7c18c29e7bd489c48738.sample::
+BossMusic.mp3::AudioStreamMP3::8646578802640543270::1762909966::1762910183::1::::<><><>0<>0<>a5deca986b7a8238befc6bab4a4ca60b<>res://.godot/imported/BossMusic.mp3-5f4e96a77bfe6e2ec578fcdac56bf656.mp3str::
+DarkBrownTile.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/TreeStumpTile.png
+default_env.tres::Environment::7451289002020532142::1762910201::0::1::::<><><>0<>0<><>::
+Enemy.gd::GDScript::2781303672319911976::1762910161::0::1::::<>Area2D<><>0<>0<><>::
+Enemy.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/Enemy.png<>res://Enemy.gd
+EnemyLvl3.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/Enemy.png<>res://Enemy.gd
+gdre_export.log::TextFile::-1::1762909966::0::1::::<><><>0<>0<><>::
+JumpSound.mp3::AudioStreamMP3::7695800018539293652::1762909966::1762910183::1::::<><><>0<>0<>68aae76f27ef3a531eb493bb1dd8d858<>res://.godot/imported/JumpSound.mp3-53c4455e7396d32586525a4f99e570f1.mp3str::
+Level1BackGroundMusic.mp3::AudioStreamMP3::1766233118157117394::1762909966::1762910183::1::::<><><>0<>0<>b18e03c5a5c105d0633ca8738a6923c4<>res://.godot/imported/Level1BackGroundMusic.mp3-843eea706b762ec19b0149ba6f8c3091.mp3str::
+Level1Tile.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/Tile.png
+Level2BackGroundMusic.mp3::AudioStreamMP3::4685287965609288371::1762909966::1762910183::1::::<><><>0<>0<>e23013c1448b258626a61d3f1afe798b<>res://.godot/imported/Level2BackGroundMusic.mp3-cbb8b28bb1b6e9e8ea6be58e51b507a7.mp3str::
+Level2Leaves.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/TreeLeaves.png
+Level3BackGroundMusic.mp3::AudioStreamMP3::2753053616562071062::1762909966::1762910183::1::::<><><>0<>0<>87827a213eed3e0f2f21dbcdad49fa2a<>res://.godot/imported/Level3BackGroundMusic.mp3-d5d0d7bda7733032a24c8c0b60d6a1de.mp3str::
+Level 1.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/BackGround.jpg<>res://Player.tscn<>res://Battery.tscn<>res://Enemy.tscn<>res://Level1Tile.tscn<>res://Level1BackGroundMusic.mp3
+Level 2.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/istockphoto-1333010525-612x612.jpg<>res://Player2.tscn<>res://Level1Tile.tscn<>res://Level2BackGroundMusic.mp3<>res://DarkBrownTile.tscn<>res://Level2Leaves.tscn<>res://Battery.tscn<>res://Enemy.tscn
+Level 3.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://underground-cave-with-water-blue-crystals_107791-7339.webp<>res://Player3.tscn<>res://DarkBrownTile.tscn<>res://Level3BackGroundMusic.mp3<>res://EnemyLvl3.tscn<>res://Battery.tscn<>res://SprintLabel.tscn
+Player2.gd::GDScript::683912468158907579::1762910161::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player2.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/PlayerIdle.png<>res://Player2.gd<>res://BatterySound.wav<>res://JumpSound.mp3<>res://Sprites/PlayerWalk.png<>res://Sprites/PlayerJump.png
+Player3.gd::GDScript::5252583726569723268::1762910161::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player3.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/PlayerIdle.png<>res://Player3.gd<>res://BatterySound.wav<>res://JumpSound.mp3<>res://Sprites/PlayerWalk.png<>res://Sprites/PlayerJump.png
+Player.gd::GDScript::5290189526206591261::1762910161::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/PlayerIdle.png<>res://Player.gd<>res://BatterySound.wav<>res://JumpSound.mp3<>res://Sprites/PlayerWalk.png<>res://Sprites/PlayerJump.png
+SprintLabel.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::
+underground-cave-with-water-blue-crystals_107791-7339.webp::CompressedTexture2D::318860389456399128::1762909966::1762910183::1::::<><><>0<>0<>367e02625a6363f1aae5c60ad2391ec2<>res://.godot/imported/underground-cave-with-water-blue-crystals_107791-7339.webp-55c0987b07166d74d5c25b85ab9d8214.ctex::
+WinScene.gd::GDScript::2898433165352783724::1762910161::0::1::::<>Node2D<><>0<>0<><>::
+WinScene.tscn::PackedScene::-1::1762910161::0::1::::<><><>0<>0<><>::res://Sprites/red-pixel-retro-win-button-video-games-navigation-web-design-yellow-background-square-vector-icon-141866476.jpg<>res://WinScene.gd<>res://WinSound.wav
+WinSound.wav::AudioStreamWAV::9217564741841817239::1762909966::1762910183::1::::<><><>0<>0<>0b818f2427d86fa7e229e0e30792d482<>res://.godot/imported/WinSound.wav-5ed5cd97b9f925fff473bbadfe37a3b6.sample::
+::res://Font/::1762910183
+Ubuntu-Regular.ttf::FontFile::5765043966133788457::1762909966::1762910183::1::::<><><>0<>0<>76a80211c2a388f44b8095aa0e35cfe8<>res://.godot/imported/Ubuntu-Regular.ttf-d41147e3bf9d84cc30b7feb238accd5e.fontdata::
+::res://Sprites/::1762910183
+BackGround.jpg::CompressedTexture2D::7909719777403543031::1762909966::1762910183::1::::<><><>0<>0<>ae336005236ac4f44d44adac48fa1849<>res://.godot/imported/BackGround.jpg-391f8affbede541f62156f70a0218438.ctex::
+Battery.png::CompressedTexture2D::342484019018985233::1762909966::1762910183::1::::<><><>0<>0<>e22ec62352a1b4f42327a6488d20aabb<>res://.godot/imported/Battery.png-2bd84dada5944c4dc31573b2aaa45e01.ctex::
+Enemy.png::CompressedTexture2D::2981945026905603700::1762909966::1762910183::1::::<><><>0<>0<>6a6d1d4ff6a8a6e0adb57f1c060cd004<>res://.godot/imported/Enemy.png-4f2f37ccc9d782f4030225b9d1bff284.ctex::
+istockphoto-1333010525-612x612.jpg::CompressedTexture2D::6917811696143524728::1762909966::1762910183::1::::<><><>0<>0<>e06baf7cac6b60cfb9af47a523227008<>res://.godot/imported/istockphoto-1333010525-612x612.jpg-21a152647928cc3197952921df38fa9a.ctex::
+PlayerIdle.png::CompressedTexture2D::4298100362293830020::1762909966::1762910183::1::::<><><>0<>0<>3fc3cd3645e6f3687791b99e0ae9f624<>res://.godot/imported/PlayerIdle.png-6c5c1a1680f744bb8e3ea8f5259990a4.ctex::
+PlayerJump.png::CompressedTexture2D::8476701488018962015::1762909966::1762910183::1::::<><><>0<>0<>df1e792fc82a1218890a8f3d5b67f22a<>res://.godot/imported/PlayerJump.png-7a6c7d5afc8c935c4b087fc2f54d536a.ctex::
+PlayerWalk.png::CompressedTexture2D::7945449563967335459::1762909966::1762910183::1::::<><><>0<>0<>6747709663c4425405ae7df3729a1039<>res://.godot/imported/PlayerWalk.png-fe416ae2e0950f07aadc8402b8240545.ctex::
+red-pixel-retro-win-button-video-games-navigation-web-design-yellow-background-square-vector-icon-141866476.jpg::CompressedTexture2D::7294183150449920827::1762909966::1762910183::1::::<><><>0<>0<>015429b01c56c7d22f7b0302d941da90<>res://.godot/imported/red-pixel-retro-win-button-video-games-navigation-web-design-yellow-background-square-vector-icon-141866476.jpg-297015ef4d0d251f28263803f4f87a74.ctex::
+Tile.png::CompressedTexture2D::6270415873097707201::1762909966::1762910183::1::::<><><>0<>0<>b701a248f9097cf97f83308ee95cac38<>res://.godot/imported/Tile.png-70d4113d4aba0439883a8500fa5275c4.ctex::
+TreeLeaves.png::CompressedTexture2D::4850981833392371469::1762909966::1762910183::1::::<><><>0<>0<>4bf7b4a224957a014159269f67b686f1<>res://.godot/imported/TreeLeaves.png-b07a8118c0c21008c2ff5941d6e23d11.ctex::
+TreeStumpTile.png::CompressedTexture2D::5708141331356918541::1762909966::1762910183::1::::<><><>0<>0<>296c40948c0fa1eb99b2f5771e44691c<>res://.godot/imported/TreeStumpTile.png-5244ac88b14d058fabebf12a0d2857e7.ctex::

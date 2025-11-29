@@ -1,9 +1,9 @@
-# PowerSurge ⚡
+# Power Surge ⚡
 
 A small Godot game I made back in high school. Recovered from a `.pck` file using GDRETools and rebuilt for archival and reflection.
 
 ## 🎮 About
-PowerSurge is a short 2D platformer with self-made sprites and basic gameplay mechanics. It’s not polished, but it’s part of my early journey into game development.
+Power Surge is a short 2D platformer with self-made sprites and basic gameplay mechanics. It’s not polished, but it’s part of my early journey into game development.
 
 ## 🛠️ Recovery Process
 - Decompiled using GDRETools

@@ -21,6 +21,6 @@ PowerSurge is a short 2D platformer with self-made sprites and basic gameplay me
 ## 🧠 Notes
 This game isn’t great — but it’s real. I’m keeping it here as part of my development history.
 
-## 📄 License
+## 📝 License
 
-This project does not use a formal license.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
